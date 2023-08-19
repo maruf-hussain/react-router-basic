@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const PostDetails = () => {
@@ -12,7 +12,7 @@ const PostDetails = () => {
         <div>
             <p>{post.title}</p>
             <p>{post.body}</p>
-            <button onClick={handleGoBack}>Go.. Back</button>
+            <button onClick={handleGoBack}>Go Back</button>
         </div>
     );
 };
